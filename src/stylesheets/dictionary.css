@@ -1,0 +1,120 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        /* Основной контент */
+        .main-container {
+            max-width: 900px;
+            width: 90%;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Заголовки страниц */
+        .page-header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding: 30px;
+        }
+
+        .page-title {
+            font-size: 3rem;
+            color: #896E3D;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            position: relative;
+            display: inline-block;
+        }
+
+        .page-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: #896E3D;
+            border-radius: 2px;
+        }
+
+        .page-subtitle {
+            font-size: 1.2rem;
+            color: #5a4a2a;
+            font-weight: 300;
+            margin-top: 20px;
+        }
+
+        /* Карточки контента */
+        .content-card {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .card-title {
+            color: #896E3D;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            border-left: 4px solid #896E3D;
+            padding-left: 15px;
+        }
+
+        .card-text {
+            color: #5a4a2a;
+            line-height: 1.7;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Кнопки */
+        .btn {
+            display: inline-block;
+            background: #896E3D;
+            color: #EEE9DE;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(137, 110, 61, 0.3);
+        }
+
+        .btn:hover {
+            background: #745a2e;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(137, 110, 61, 0.4);
+            color: #EEE9DE;
+        }
+
+        /* Списки */
+        .feature-list {
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        .feature-list li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+            color: #5a4a2a;
+            font-size: 1.1rem;
+        }
+
+        .feature-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #896E3D;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }

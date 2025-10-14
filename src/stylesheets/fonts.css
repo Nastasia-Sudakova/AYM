@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "PT Root UI Bold";
+    src: url("../fonts/pt-root-ui_bold.woff") format("truetype");
+    font-style: bold;
+    font-weight: 7vw;
+}
+
+@font-face {
+    font-family: "PT Root UI Medium";
+    src: url("../fonts/pt-root-ui_medium.woff") format("truetype");
+    font-style: medium;
+    font-weight: 5vw;
+}
+
+@font-face {
+    font-family: "PT Root UI Regular";
+    src: url("../fonts/pt-root-ui_regular.woff") format("truetype");
+    font-style: regular;
+    font-weight: 4vw;
+}
+
+@font-face {
+    font-family: "PT Root UI Light";
+    src: url("../fonts/pt-root-ui_light.woff") format("truetype");
+    font-style: light;
+    font-weight: 3vw;
+}
+
+@font-face {
+    font-family: "Pragmatica";
+    src: url("../fonts/pragmatica.ttf") format("truetype");
+    font-style: regular;
+    font-weight: 1.5vw;
+}
+
+@font-face {
+    font-family: "PragmaticaBold";
+    src: url("../fonts/pragmaticactt-bold.ttf") format("truetype");
+    font-style: bold;
+    font-weight: 1.5vw;
+}
+
+@font-face {
+    font-family: "PragmaticaBlack";
+    src: url("../fonts/pragmatica-black.ttf") format("truetype");
+    font-style: blackbe;
+    font-weight: 1.5vw;
+}

@@ -1,0 +1,49 @@
+.section4_1 {
+    width: 80vw;
+    margin-top: 5vw;
+    font-family: Raleway;
+}
+
+.img_art_glav2 {
+    padding-bottom: 7vw;
+}
+
+#img_art_glav1 {
+    width: 20vw;
+    height: 10vw;
+    background-color: #D9D9D9;
+}
+
+#img_art_glav2 {
+    width: 20vw;
+    height: 10vw;
+    background-color: #182809;
+}
+
+.artic2_glav {
+    position: relative;
+    width: 45vw;
+    padding-bottom: 3vw;
+    margin-top: -10.5vw;
+    margin-left: 38vw;
+}
+
+.art1_gl {
+    font-family: RalewaySB;
+    font-size: 1.3vw;
+    color: #252525;
+    padding-bottom: 1vw;
+    
+}
+
+.art2_gl {
+    font-family: Raleway;
+    font-size: 1vw;
+    padding-bottom: 0.5vw;
+}
+
+.pod_glav {
+    font-family: Raleway;
+    font-size: 0.9vw;
+    color: #252525;
+}

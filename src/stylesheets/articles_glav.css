@@ -1,0 +1,219 @@
+.menu_3 {
+    margin-left: 3vw;
+    margin-top: 6vw;
+}
+
+.pp1_3 {
+    position: relative;
+    font-family: JostM;
+    font-size: 1.1vw;
+    font-weight: 500;
+    color: #000;
+    padding-bottom: 2vw;
+    text-decoration: none;
+
+}
+
+.pp1_3:hover {
+    color: #000;
+    font-weight: 550;
+}
+
+.content {
+    margin-left: 32vw; /* ширина бокового меню + отступ */
+    padding: 2vw;
+    width: 60vw;
+    font-family: Raleway;
+}
+
+.content0000 {
+    /* margin-top: 6vw; */
+    text-align: justify;
+    width: 60vw;
+    padding-bottom: 7vw;
+}
+
+.section3_1_arglav {
+    width: 60vw;
+    margin-top: -9vw;
+    margin-left: 25vw;
+}
+
+.fiction1 {
+    display: grid;
+    grid-gap: 13vw;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);
+}
+
+.bbox_box {
+    width: 20vw;
+}
+
+.bbox_img {
+    width: 20vw;
+    height: 15vw;
+}
+
+.bbox_text {
+    position: relative;
+    font-family: RalewayM;
+    font-size: 1vw;
+    color: #000;
+
+}
+
+.bbox_text2 {
+    position: relative;
+    font-family: Raleway;
+    font-size: 0.65vw;
+    font-weight: 500;
+    color: #dddddd;
+    width: 20vw;
+    text-align: left;
+    margin-top: -3.5vw;
+    padding-left: 1vw;
+    padding-bottom: 1.2vw;
+    /* padding-bottom: 1vw; */
+}
+
+
+
+/* свойства модального окна по умолчанию */
+.modal {
+    position: fixed; /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); /* цвет фона */
+    z-index: 1050;
+    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+}
+/* при отображении модального окно */
+.modal:target {
+    opacity: 1; /* делаем окно видимым */
+	pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: hidden; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 1vw;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+      max-width: 500px;
+      margin: 10vw auto; /* для отображения модального окна по центру */
+  }
+}
+/* свойства для блока, содержащего контент модального окна */ 
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 0.1vw solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+    width: 70vw;
+    justify-content: center;
+    margin-left: -20vw;
+}
+@media (min-width: 768px) {
+  .modal-content {
+      -webkit-box-shadow: 0 0.5vw 1.5vw rgba(0,0,0,.5);
+      box-shadow: 0 0.5vw 1.5vw rgba(0,0,0,.5);
+  }
+}
+/* свойства для заголовка модального окна */
+.modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1.5vw;
+    border-bottom: 0.1vw solid #eceeef;
+}
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-family: RalewayM;
+    font-size: 1.25vw;
+    font-weight: 500;
+}
+/* свойства для кнопки "Закрыть" */
+.close {
+    float: right;
+    font-family: RalewaySB;
+    font-size: 2.4vw;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 0.1vw 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+
+.close2 {
+    float: right;
+    font-family: RalewaySB;
+    font-size: 2.4vw;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 0.1vw 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.close2:focus, .close2:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+/* свойства для блока, содержащего основное содержимое окна */
+.modal-body {
+  position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.5vw;
+    overflow: auto;
+}

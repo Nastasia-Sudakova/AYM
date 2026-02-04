@@ -1,0 +1,64 @@
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 14vw;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0vw 0.8vw 1.6vw 0vw rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+  color: black;
+  padding: 0.5vw 1vw;
+  text-decoration: none;
+  display: block;
+  font-family: Raleway;
+  font-size: 0.9vw;
+  font-weight: 450;
+  text-align: center;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.drop {
+    position: relative;
+  display: inline-block;
+}
+
+.drop_content {
+    display: none;
+  position: absolute;
+  width: 14vw;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0vw 0.8vw 1.6vw 0vw rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.drop-content a {
+  color: black;
+  padding: 0.5vw 1vw;
+  text-decoration: none;
+  display: block;
+  font-family: Raleway;
+  font-size: 0.9vw;
+  font-weight: 450;
+  text-align: center;
+}

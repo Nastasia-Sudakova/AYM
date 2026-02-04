@@ -1,0 +1,69 @@
+.fiction2 {
+    width: 60vw;
+}
+
+.zk1_1 {
+    position: relative;
+    width: 60vw;
+    font-family: RalewaySB;
+    font-size: 1.8vw;
+    border: 0.2vw;
+}
+
+.zk1 {
+    position: relative;
+    width: 60vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    text-align: justify;
+    font-family: RalewayM;
+    font-size: 1.4vw;
+}
+
+.zk {
+    position: relative;
+    width: 60vw;
+    padding-bottom: 1vw;
+    font-family: Raleway;
+    font-size: 1vw;
+}
+
+.zk33 {
+    position: relative;
+    width: 60vw;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    font-family: RalewaySB;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.zk333 {
+    position: relative;
+    width: 60vw;
+    padding-bottom: 1vw;
+    font-family: Raleway;
+    font-size: 1vw;
+}
+
+.zk3 {
+    position: relative;
+    width: 60vw;
+    padding-bottom: 5vw;
+    font-family: Raleway;
+    font-size: 1vw;
+}
+
+.zk_img {
+    width: 60vw;
+    height: 30vw;
+    padding-top: 0.5vw;
+}
+
+.zk_img_text1 {
+    text-align: center;
+    font-family: Raleway;
+    font-size: 0.6vw;
+    color: black;
+    padding-bottom: 1.5vw;
+}
